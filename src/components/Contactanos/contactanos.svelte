@@ -5,7 +5,7 @@
         <a href="https://ff.healthatom.io/BKRXlS" class="w-full sm:w-auto bg-green-600 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700">
             <svg class="h-8 w-8 text-white" <svg  width="24"  height="24"  viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />  <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" /></svg>
             <div class="text-left rtl:text-right">
-                <div class="mb-1 text-xs">Agenda</div>
+                <div class="mb-1 text-xs">Agenda?</div>
                 <div class="-mt-1 font-sans text-sm font-semibold">En linea</div>
             </div>
         </a>
