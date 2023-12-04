@@ -24,7 +24,7 @@ const NAVBAR_DATA = [
 	},
 	 {
 	    id: 4,
-	    url: "casos/Casos",
+	    url: "#services",
 	   label: "Experiencia",
 	    publico: true,
 	    token:false
