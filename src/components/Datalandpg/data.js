@@ -22,27 +22,27 @@ const NAVBAR_DATA = [
 		publico: true,
 		token: false
 	},
-	// {
-	//     id: 4,
-	//     url: "casos/Casos",
-	//     label: "Casos",
-	//     publico: true,
-	//     token:false
-	// },
+	 {
+	    id: 4,
+	    url: "casos/Casos",
+	   label: "Experiencia",
+	    publico: true,
+	    token:false
+	},
 	{
 		id: 5,
 		url: '#footer',
 		label: 'Contacto',
 		publico: true,
 		token: false
-	}
-	// {
-	// 	id: 6,
-	// 	url: 'pacientes/pacientes',
-	// 	label: 'Pacientes',
-	// 	publico: false,
-	// 	token: true
-	// }
+	},
+	 {
+	 	id: 6,
+	 	url: 'pacientes/pacientes',
+	 	label: 'Pacientes',
+	 	publico: false,
+	 	token: true
+	 }
 
 	// {
 	//     id: 7,

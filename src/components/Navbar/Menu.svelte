@@ -9,11 +9,99 @@
 	}
 </script>
 
+<nav class="bg-[#cfded8] ">
+	<div class="mx-auto   sm:px-6 lg:px-8">
+	  <div class="relative flex h-16 items-center ">
+		<div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+		  <!-- Mobile menu button-->
+		  <button type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+			<span class="absolute -inset-0.5"></span>
+			<span class="sr-only">Open main menu</span>
+			<!--
+			  Icon when menu is closed.
+  
+			  Menu open: "hidden", Menu closed: "block"
+			-->
+			<svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+			  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+			</svg>
+			<!--
+			  Icon when menu is open.
+  
+			  Menu open: "block", Menu closed: "hidden"
+			-->
+			<svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+			  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+			</svg>
+		  </button>
+		</div>
+		<div class="flex flex-shrink-0 items-center">
+			<img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company">
+		  </div>
+		  <a href="/" class=" hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-xl font-bold text-gray-900 " aria-current="page"> PAULA ULLOA D. IMPLANTES Y REHABILITACIÓN</a> 
+		<div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-end">
+
+		  <div class="hidden sm:ml-6 sm:block">
+			<div class="flex space-x-4">
+			  <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+			  {#each navlists as list}
+			        <a href="{list.url}" class=" text-gray-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page"> {list.label}</a> 
+		      {/each}
+		
+			</div>
+		  </div>
+		</div>
+		<div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+		  <button type="button" class="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+			<span class="absolute -inset-1.5"></span>
+			<span class="sr-only">View notifications</span>
+			<svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+			  <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0" />
+			</svg>
+		  </button>
+  
+		  <!-- Profile dropdown -->
+		  <div class="relative ml-3">
+			<div>
+			  <button type="button" class="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
+				<span class="absolute -inset-1.5"></span>
+				<span class="sr-only">Open user menu</span>
+				<img class="h-8 w-8 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+			  </button>
+			</div>
+  
+			<!--
+			  Dropdown menu, show/hide based on menu state.
+  
+			  Entering: "transition ease-out duration-100"
+				From: "transform opacity-0 scale-95"
+				To: "transform opacity-100 scale-100"
+			  Leaving: "transition ease-in duration-75"
+				From: "transform opacity-100 scale-100"
+				To: "transform opacity-0 scale-95"
+			-->
+		  </div>
+		</div>
+	  </div>
+	</div>
+  
+	<!-- Mobile menu, show/hide based on menu state. -->
+	<div class="sm:hidden" id="mobile-menu">
+	  <div class="space-y-1 px-2 pb-3 pt-2">
+		<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+		{#each navlists as list}
+		<a href="{list.url}" class=" text-gray-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page"> {list.label}</a> 
+         {/each}
+	  </div>
+	</div>
+  </nav>
+
+
 <nav class="hidden uppercase text-gray-800 pg sm:block">
 	<div class="lg:flex lg:flex-grow items-center hidden" id="example-collapse-navbar">
 			<ul class="flex flex-col lg:flex-row list-none lg:ml-auto left-14">
 			<!--  Lsita de tratamientos  -->     
-
+<!--
 			<div class="relative" data-te-dropdown-ref>
 				<button
 				  class="px-3 py-5 flex items-center text-sm uppercase font-bold leading-snug 
@@ -71,28 +159,18 @@
 				  </li>
 				</ul>
 			  </div>
-
+			-->
 			 <!--  End Lista de tratamientos  -->           
-			{#each navlists as list}
-				<li class="relative">
-				
-				  <button
-						class="px-5 py-3.5 flex items-center text-sm uppercase font-bold leading-snug btn-sm bg-[#cfded8]  flex text-gray-800 items-center text-sm uppercase font-bold leading-snug hover:opacity-75 hover:no-underline"
-						onclick="window.location.href='{list.url}';"
-					>
-						{list.label}
-					</button>
 
-				</li>
-			{/each}
 			<li>
+				<!--
 				<a
 					class="px-3 py-6 flex items-center text-sm uppercase font-bold leading-snug text-white hover:opacity-75"
 					href="/auth/login"
 				>
 					<i class="fas fa-user text-lg leading-lg text-white opacity-75" /> Conectar
 				</a>
-				<!-- <a class="p-2 ml-2 bg-white text-teal-500 font-semibold leading-none border border-gray-100 rounded hover:border-transparent hover:bg-gray-100" href="https://ff.healthatom.io/45V2HY">Agenda sin Costo</a>
+				 <a class="p-2 ml-2 bg-white text-teal-500 font-semibold leading-none border border-gray-100 rounded hover:border-transparent hover:bg-gray-100" href="https://ff.healthatom.io/45V2HY">Agenda sin Costo</a>
 				<div class="flex text-sm">
 				  <a class="p-2 ml-2 bg-teal-500 text-gray-100 font-semibold leading-none border border-teal-600 rounded hover:border-transparent hover:bg-teal-600" href="#">Sign up</a>
 				</div> -->

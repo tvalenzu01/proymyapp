@@ -12,15 +12,7 @@
 	<title>Nav</title>
 </svelte:head>
 
-<header class="flex justify-between bg-[#ebc9c8] p-2 items-center  text-xl font-semibold border-b-2">
-	 <nav class="flex">
-		<!-- <Hamburger bind:open={sidebar} /> -->
-		<Logo />
-	</nav> 
-
+<header class=" bg-[#ebc9c8] p-2 place-items-end  text-xl font-semibold border-b-0 ">
 	<Menu navlists={DATA.NAVBAR_DATA} />
-
-	<!--
-		<Main/>
--->
 </header>
+
