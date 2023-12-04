@@ -38,7 +38,7 @@ const NAVBAR_DATA = [
 	},
 	 {
 	 	id: 6,
-	 	url: 'pacientes/pacientes',
+	 	url: '#footer',
 	 	label: 'Pacientes',
 	 	publico: false,
 	 	token: true
