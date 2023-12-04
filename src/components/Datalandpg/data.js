@@ -11,7 +11,7 @@ const NAVBAR_DATA = [
 	{
 		id: 2,
 		url: '#services',
-		label: 'Servicios',
+		label: 'Experiencia',
 		publico: true,
 		token: false
 	},
@@ -25,7 +25,7 @@ const NAVBAR_DATA = [
 	 {
 	    id: 4,
 	    url: "#services",
-	   label: "Experiencia",
+	   label: "Quienes Somos",
 	    publico: true,
 	    token:false
 	},

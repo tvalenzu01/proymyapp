@@ -38,7 +38,7 @@
 		<div class="flex flex-shrink-0 items-center">
 			<img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company">
 		  </div>
-		  <a href="/" class=" hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-xl font-bold text-gray-900 " aria-current="page"> PAULA ULLOA D. IMPLANTES Y REHABILITACIÓN</a> 
+		  <a href="/" class=" rounded-md px-3 py-2 text-xl font-bold text-gray-900 " aria-current="page"> PAULA ULLOA D. IMPLANTES Y REHABILITACIÓN</a> 
 		<div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-end">
 
 		  <div class="hidden sm:ml-6 sm:block">
