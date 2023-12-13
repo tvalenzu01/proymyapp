@@ -8,13 +8,13 @@ const NAVBAR_DATA = [
 		publico: true,
 		token: false
 	},
-	{
+/* 	{
 		id: 2,
 		url: '#services',
 		label: 'Experiencia',
 		publico: true,
 		token: false
-	},
+	}, */
 	{
 		id: 3,
 		url: '#Why-us',
@@ -22,20 +22,20 @@ const NAVBAR_DATA = [
 		publico: true,
 		token: false
 	},
-	 {
+/* 	 {
 	    id: 4,
 	    url: "#services",
 	   label: "Quienes Somos",
 	    publico: true,
 	    token:false
-	},
+	}, */
 	{
 		id: 5,
 		url: '#footer',
 		label: 'Contacto',
 		publico: true,
 		token: false
-	},
+	}/* ,
 	 {
 	 	id: 6,
 	 	url: '#footer',
@@ -43,7 +43,7 @@ const NAVBAR_DATA = [
 	 	publico: false,
 	 	token: true
 	 }
-
+ */
 	// {
 	//     id: 7,
 	//     url: "pacientes/pacienteItem",
@@ -62,7 +62,7 @@ const NAVBAR_DATA = [
 const BANNER_DATA = {
 	HEADING: 'Bienvenido',
 	DECRIPTION:
-		'te ayudamos a recuperar todos los dientes mediante implantes dentales con lo último en tecnología dental para darte un tratamiento integral de la más alta calidad ',
+		'te ayudamos a recuperar todos los dientes mediante implantes dentales con lo último en tecnología dental para darte un tratamiento integral de la más alta calidad  comprendemos la importancia de una sonrisa completa y funcional. Nos comprometemos a proporcionar atención de alta calidad, con un enfoque particular en la comodidad y satisfacción de nuestros pacientes. Cada miembro de nuestro equipo está dedicado a brindar un servicio personalizado, respaldado por la más avanzada tecnología y técnicas en implantología dental.',
 	TUTORIAL_URL: '/carrusel',
 	WATCH_TUTORIAL: 'Ver resultados'
 };
@@ -73,20 +73,55 @@ const SERVICE_DATA = {
 		{
 			LABEL: 'Implantes dentales',
 			DESCRIPTION:
-				'Los implantes dentales son la opción para reemplazar los dientes perdidos. La pérdida o daño de un solo diente puede tener un impacto considerable en la vida cotidiana y la autoestima de una persona.',
-			URL: 'images/implante1.png'
+				'Por qué Elegir Nuestros Implantes Dentales: Garantía de por vida .💪 Restauración de la función masticatoria.🌸 Aspecto natural y estético.🩹 Mejora de la salud bucal a largo plazo..',
+			URL: 'images/implante.png'
 		},
 		{
 			LABEL: 'Estetica dental',
-			DESCRIPTION: 'Alternativas blanquemiento, diseño de sonrisa, carillas , coronas dentales.',
-			URL: 'images/sonrisa.png'
+			DESCRIPTION: 'Nuestros Servicios de Estética Dental Incluyen: 💎 Blanqueamiento dental para una sonrisa más brillante.🦷 Carillas dentales para corregir imperfecciones.🌈 Contorneado estético para una alineación armoniosa.🌸 Restauraciones dentales estéticas para resultados naturales.👩‍⚕️ Equipo de Expertos en Estética Dental:Alternativas blanquemiento, diseño de sonrisa, carillas , coronas dentales.',
+			URL: 'images/carillas.png'
 		},
 		{
 			LABEL: 'Terceros Molares',
-			DESCRIPTION: 'Los terceros molares son también llamados, muelas del juicio',
+			DESCRIPTION: 'Las muelas del juicio, o terceros molares, a menudo necesitan ser extraídas para prevenir problemas futuros. Nuestro cirujano altamente capacitado se especializa en la extracción de muelas del juicio, asegurando un procedimiento seguro y una recuperación sin complicaciones.',
 
-			URL: 'images/service3.png'
+			URL: 'images/tercerosmolares.png'
+		},
+		{
+			LABEL: 'Blanquemiento',
+			DESCRIPTION:
+				'El blanqueamiento Zoom es un tratamiento dental avanzado que utiliza una luz LED especial junto con un gel de blanqueamiento de alta potencia para eliminar manchas y decoloraciones en tus dientes. ¡Resultados visibles desde la primera sesión!',
+			URL: 'images/zoom2.png'
+		},
+		{
+			LABEL: 'Ortodoncia',
+			DESCRIPTION: 'Ortodoncista altamente capacitado utiliza las últimas tecnologías y técnicas para diseñar un plan de tratamiento personalizado para cada paciente. Ya sea que necesites brackets tradicionales, alineadores transparentes o tratamientos más avanzados, estamos aquí para crear la solución perfecta para ti.',
+			URL: 'images/ortodoncia.png'
+		},
+		{
+			LABEL: 'Endodoncia',
+			DESCRIPTION: 'La endodoncia, también conocida como tratamiento de conducto, es esencial cuando la pulpa dental está dañada o infectada. Nuestros especialistas en endodoncia utilizan técnicas avanzadas para preservar tus dientes naturales y restaurar la salud de tus raíces.',
+
+			URL: 'images/endodoncia.png'
+		},
+		{
+			LABEL: 'Cirugía Oral',
+			DESCRIPTION:
+				'👨‍⚕️ Nuestros Servicios de Cirugía Oral Incluyen:🦷 Extracciones dentales, incluyendo muelas del juicio. 🪥 Implantes dentales para restaurar la función y estética. 🌬 Cirugía para tratar problemas de encías. 🦷 Procedimientos preprotésicos y reconstructivos.',
+			URL: 'images/cirugia.png'
+		},
+		{
+			LABEL: 'Limpieza dental',
+			DESCRIPTION: ' Nuestra Limpeza Dental:		🦷 Eliminación de placa y sarro para prevenir caries. 😁 Restauración del brillo natural de tus dientes. 🌬 Frescura duradera y prevención del mal aliento. Evaluación completa de la salud bucal.',
+			URL: 'images/limpieza.png'
+		},
+		{
+			LABEL: 'Estetica Facial',
+			DESCRIPTION: 'Tratamientos Adaptados a tus Necesidades:Desde rejuvenecimiento facial hasta procedimientos no invasivos, nuestros tratamientos están diseñados para abordar tus preocupaciones estéticas de manera específica. Sea cual sea tu objetivo, estamos comprometidos a crear una experiencia personalizada que te haga sentir renovado(a).',
+
+			URL: 'images/estetica.png'
 		}
+
 	]
 };
 
