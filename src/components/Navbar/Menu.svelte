@@ -44,6 +44,114 @@
 		  <div class="hidden sm:ml-6 sm:block">
 			<div class="flex space-x-4">
 			  <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+			  <!--  Lsita de tratamientos  -->     
+			<div class="relative" data-te-dropdown-ref>
+				<button
+				  class="px-3 py-5 flex items-center text-sm uppercase font-bold leading-snug 
+				  hover:opacity-75 hover:no-underline flex items-center whitespace-nowrap rounded  px-4 pb-2 pt-4 text-xs uppercase leading-normal shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out 
+				   hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] bg-[#cfded8]
+				    focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)]
+					 focus:outline-none focus:ring-0 active:bg-[#cfded8] active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] motion-reduce:transition-none dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
+				  type="button"
+				  id="dropdownMenuButton1"
+				  data-te-dropdown-toggle-ref
+				  aria-expanded="false"
+				  data-te-ripple-init
+				  data-te-ripple-color="light">
+				  Tratamientos
+				  <span class="ml-2 w-2">
+					<svg
+					  xmlns="http://www.w3.org/2000/svg"
+					  viewBox="0 0 20 20"
+					  fill="currentColor"
+					  class="h-5 w-5">
+					  <path
+						fill-rule="evenodd"
+						d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+						clip-rule="evenodd" />
+					</svg>
+				  </span>
+				</button>
+				<ul
+				  class="absolute z-[1000] float-left m-0 hidden min-w-max list-none overflow-hidden rounded-lg border-none bg-white bg-clip-padding text-left text-base shadow-lg dark:bg-neutral-700 [&[data-te-dropdown-show]]:block"
+				  aria-labelledby="dropdownMenuButton1"
+				  data-te-dropdown-menu-ref>
+				  <li>
+					<a
+					  class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-neutral-600"
+					  href="#implante"
+					  data-te-dropdown-item-ref
+					  >Implantología</a
+					>
+				  </li>
+				  <li>
+					<a
+					  class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-neutral-600"
+					  href="#estetica"
+					  data-te-dropdown-item-ref
+					  >Estetica</a
+					>
+				  </li>
+				  <li>
+					<a
+					  class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-neutral-600"
+					  href="#terceros"
+					  data-te-dropdown-item-ref
+					  >Terceros Molares</a
+					>
+				  </li>
+				  <li>
+					<a
+					  class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-neutral-600"
+					  href="#blanqueamiento"
+					  data-te-dropdown-item-ref
+					  >Blanquemiento</a
+					>
+				  </li>
+				  <li>
+					<a
+					  class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-neutral-600"
+					  href="#ortodoncia"
+					  data-te-dropdown-item-ref
+					  >Ortodoncia</a
+					>
+				  </li>
+				  <li>
+					<a
+					  class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-neutral-600"
+					  href="#endodoncia"
+					  data-te-dropdown-item-ref
+					  >Endodoncia</a
+					>
+				  </li>
+				  <li>
+					<a
+					  class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-neutral-600"
+					  href="#cirugia"
+					  data-te-dropdown-item-ref
+					  >Cirugía Oral</a
+					>
+				  </li>
+				  <li>
+					<a
+					  class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-neutral-600"
+					  href="#limpieza"
+					  data-te-dropdown-item-ref
+					  >Limpieza dental</a
+					>
+				  </li>
+				  <li>
+					<a
+					  class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-neutral-600"
+					  href="#esteticaf"
+					  data-te-dropdown-item-ref
+					  >Estetica Facial</a
+					>
+				  </li>
+				</ul>
+			  </div>
+			
+			 <!--  End Lista de tratamientos  -->  
 			  {#each navlists as list}
 			        <a href="{list.url}" class=" text-gray-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page"> {list.label}</a> 
 		      {/each}
@@ -89,6 +197,113 @@
 	<div class="sm:hidden" id="mobile-menu">
 	  <div class="space-y-1 px-2 pb-3 pt-2">
 		<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+				  <!--  Lsita de tratamientos  -->     
+				  <div class="relative" data-te-dropdown-ref>
+					<button
+					  class="px-3 py-5 flex items-center text-sm uppercase font-bold leading-snug 
+					  hover:opacity-75 hover:no-underline flex items-center whitespace-nowrap rounded  px-4 pb-2 pt-4 text-xs uppercase leading-normal shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out 
+					   hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] bg-[#cfded8]
+						focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)]
+						 focus:outline-none focus:ring-0 active:bg-[#cfded8] active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] motion-reduce:transition-none dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
+					  type="button"
+					  id="dropdownMenuButton1"
+					  data-te-dropdown-toggle-ref
+					  aria-expanded="false"
+					  data-te-ripple-init
+					  data-te-ripple-color="light">
+					  Tratamientos
+					  <span class="ml-2 w-2">
+						<svg
+						  xmlns="http://www.w3.org/2000/svg"
+						  viewBox="0 0 20 20"
+						  fill="currentColor"
+						  class="h-5 w-5">
+						  <path
+							fill-rule="evenodd"
+							d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+							clip-rule="evenodd" />
+						</svg>
+					  </span>
+					</button>
+					<ul
+					  class="absolute z-[1000] float-left m-0 hidden min-w-max list-none overflow-hidden rounded-lg border-none bg-white bg-clip-padding text-left text-base shadow-lg dark:bg-neutral-700 [&[data-te-dropdown-show]]:block"
+					  aria-labelledby="dropdownMenuButton1"
+					  data-te-dropdown-menu-ref>
+					  <li>
+						<a
+						  class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-neutral-600"
+						  href="#implante"
+						  data-te-dropdown-item-ref
+						  >Implantología</a
+						>
+					  </li>
+					  <li>
+						<a
+						  class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-neutral-600"
+						  href="#estetica"
+						  data-te-dropdown-item-ref
+						  >Estetica</a
+						>
+					  </li>
+					  <li>
+						<a
+						  class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-neutral-600"
+						  href="#terceros"
+						  data-te-dropdown-item-ref
+						  >Terceros Molares</a
+						>
+					  </li>
+					  <li>
+						<a
+						  class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-neutral-600"
+						  href="#blanqueamiento"
+						  data-te-dropdown-item-ref
+						  >Blanquemiento</a
+						>
+					  </li>
+					  <li>
+						<a
+						  class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-neutral-600"
+						  href="#ortodoncia"
+						  data-te-dropdown-item-ref
+						  >Ortodoncia</a
+						>
+					  </li>
+					  <li>
+						<a
+						  class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-neutral-600"
+						  href="#endodoncia"
+						  data-te-dropdown-item-ref
+						  >Endodoncia</a
+						>
+					  </li>
+					  <li>
+						<a
+						  class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-neutral-600"
+						  href="#cirugia"
+						  data-te-dropdown-item-ref
+						  >Cirugía Oral</a
+						>
+					  </li>
+					  <li>
+						<a
+						  class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-neutral-600"
+						  href="#limpieza"
+						  data-te-dropdown-item-ref
+						  >Limpieza dental</a
+						>
+					  </li>
+					  <li>
+						<a
+						  class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-neutral-600"
+						  href="#esteticaf"
+						  data-te-dropdown-item-ref
+						  >Estetica Facial</a
+						>
+					  </li>
+					</ul>
+				  </div>
+			 <!--  End Lista de tratamientos  -->  
 		{#each navlists as list}
 		<a href="{list.url}" class=" text-gray-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page"> {list.label}</a> 
          {/each}

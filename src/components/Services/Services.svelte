@@ -13,7 +13,8 @@
 	<div class="container mx-auto px-8">
 		<div class="flex flex-wrap">
 			{#each SERVICE_LIST as list}
-				<div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center ">
+			<!-- <section id="{list.ENLACE}"> -->
+				<div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center " id="{list.ENLACE}">
 					<div
 						class="relative flex flex-col min-w-0 break-words bg-white w-full
             mb-8 shadow-lg rounded-lg"
@@ -32,6 +33,7 @@
 						</div>
 					</div>
 				</div>
+			<!-- </section> -->
 			{/each}
 		</div>
 	</div>

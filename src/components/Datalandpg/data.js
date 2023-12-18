@@ -1,13 +1,7 @@
 const HEADER = 'Dra Ulloa';
 
 const NAVBAR_DATA = [
-	{
-		id: 1,
-		url: '#services',
-		label: 'Tratamientos',
-		publico: true,
-		token: false
-	},
+
 /* 	{
 		id: 2,
 		url: '#services',
@@ -70,52 +64,60 @@ const SERVICE_DATA = {
 	HEADING: 'Tratamientos',
 	ALL_SERVICES: 'Todos los tratamientos',
 	SERVICE_LIST: [
-		{
+		{   ENLACE: 'implante',
 			LABEL: 'Implantes dentales',
 			DESCRIPTION:
 				'Por qué Elegir Nuestros Implantes Dentales: Garantía de por vida .💪 Restauración de la función masticatoria.🌸 Aspecto natural y estético.🩹 Mejora de la salud bucal a largo plazo..',
 			URL: 'images/implante.png'
 		},
 		{
+			ENLACE: 'estetica',
 			LABEL: 'Estetica dental',
 			DESCRIPTION: 'Nuestros Servicios de Estética Dental Incluyen: 💎 Blanqueamiento dental para una sonrisa más brillante.🦷 Carillas dentales para corregir imperfecciones.🌈 Contorneado estético para una alineación armoniosa.🌸 Restauraciones dentales estéticas para resultados naturales.👩‍⚕️ Equipo de Expertos en Estética Dental:Alternativas blanquemiento, diseño de sonrisa, carillas , coronas dentales.',
 			URL: 'images/carillas.png'
 		},
 		{
+			ENLACE: 'terceros',
 			LABEL: 'Terceros Molares',
 			DESCRIPTION: 'Las muelas del juicio, o terceros molares, a menudo necesitan ser extraídas para prevenir problemas futuros. Nuestro cirujano altamente capacitado se especializa en la extracción de muelas del juicio, asegurando un procedimiento seguro y una recuperación sin complicaciones.',
 
 			URL: 'images/tercerosmolares.png'
 		},
 		{
+			ENLACE: 'blanqueamiento',
 			LABEL: 'Blanquemiento',
 			DESCRIPTION:
 				'El blanqueamiento Zoom es un tratamiento dental avanzado que utiliza una luz LED especial junto con un gel de blanqueamiento de alta potencia para eliminar manchas y decoloraciones en tus dientes. ¡Resultados visibles desde la primera sesión!',
 			URL: 'images/zoom2.png'
 		},
 		{
+			ENLACE: 'ortodoncia',
 			LABEL: 'Ortodoncia',
 			DESCRIPTION: 'Ortodoncista altamente capacitado utiliza las últimas tecnologías y técnicas para diseñar un plan de tratamiento personalizado para cada paciente. Ya sea que necesites brackets tradicionales, alineadores transparentes o tratamientos más avanzados, estamos aquí para crear la solución perfecta para ti.',
 			URL: 'images/ortodoncia.png'
 		},
 		{
+			ENLACE: 'endodoncia',
 			LABEL: 'Endodoncia',
 			DESCRIPTION: 'La endodoncia, también conocida como tratamiento de conducto, es esencial cuando la pulpa dental está dañada o infectada. Nuestros especialistas en endodoncia utilizan técnicas avanzadas para preservar tus dientes naturales y restaurar la salud de tus raíces.',
 
 			URL: 'images/endodoncia.png'
 		},
 		{
+			ENLACE: 'cirugia',
 			LABEL: 'Cirugía Oral',
 			DESCRIPTION:
 				'👨‍⚕️ Nuestros Servicios de Cirugía Oral Incluyen:🦷 Extracciones dentales, incluyendo muelas del juicio. 🪥 Implantes dentales para restaurar la función y estética. 🌬 Cirugía para tratar problemas de encías. 🦷 Procedimientos preprotésicos y reconstructivos.',
 			URL: 'images/cirugia.png'
 		},
 		{
+			ENLACE: 'limpieza',
 			LABEL: 'Limpieza dental',
 			DESCRIPTION: ' Nuestra Limpeza Dental:		🦷 Eliminación de placa y sarro para prevenir caries. 😁 Restauración del brillo natural de tus dientes. 🌬 Frescura duradera y prevención del mal aliento. Evaluación completa de la salud bucal.',
 			URL: 'images/limpieza.png'
 		},
 		{
+			ENLACE: 'esteticaf',
 			LABEL: 'Estetica Facial',
 			DESCRIPTION: 'Tratamientos Adaptados a tus Necesidades:Desde rejuvenecimiento facial hasta procedimientos no invasivos, nuestros tratamientos están diseñados para abordar tus preocupaciones estéticas de manera específica. Sea cual sea tu objetivo, estamos comprometidos a crear una experiencia personalizada que te haga sentir renovado(a).',
 
