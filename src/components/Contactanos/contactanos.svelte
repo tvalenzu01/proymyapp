@@ -1,3 +1,12 @@
+<script>
+	export let FOOTER_DATA = {};
+
+	const { DESCRIPTION, CONTACT_DETAILS, SUBSCRIBE_NEWSLETTER, SUBSCRIBE } = FOOTER_DATA;
+
+	const { HEADING, ADDRESS, MOBILE, EMAIL, FIJO1, FIJO2, ATENCION, HORARIO } = FOOTER_DATA;
+</script>
+
+<section>
 <div
 	class="w-full p-4 text-center bg-white border border-gray-200 rounded-lg shadow sm:p-1 dark:bg-gray-800 dark:border-gray-700"
 >
@@ -6,7 +15,7 @@
 		Agendamiento en linea o Contacto por Whatsapp.
 	</p>
 	<div
-		class="items-center justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4 rtl:space-x-reverse"
+		class="items-center justify-center space-y-1 sm:flex sm:space-y-0 sm:space-x-8 rtl:space-x-reverse"
 	>
 		<a
 			href="https://ff.healthatom.io/0AxobO"
@@ -50,5 +59,31 @@
 				<div class="-mt-1 font-sans text-sm font-semibold">Whatsapp</div>
 			</div>
 		</a>
+		
+ 		<a
+			href=""
+			class="w-full sm:w-auto bg-[#cfded8] hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 text-gray-900 rounded-lg inline-flex items-center justify-center px-3 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700"
+		>
+			<div class="text-left rtl:text-right">
+				<div class="mb-1 text-xs">Horario de atención</div>
+				<div class="-mt-1 font-sans text-sm font-semibold">Lunes a Viernes</div>
+				<div class="-mt-1 font-sans text-sm font-semibold">09:30 a 19:30</div>
+			</div>
+		</a> 
+
+		<a
+		href=""
+		class="w-full sm:w-auto bg-[#cfded8] hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 text-gray-900 rounded-lg inline-flex items-center justify-center px-3 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700"
+	>
+		<div class="text-left rtl:text-right">
+			<div class="mb-1 text-xs">Telefono</div>
+			<div class="-mt-1 font-sans text-sm font-semibold">{MOBILE}s</div>
+			<div class="-mt-1 font-sans text-sm font-semibold"> ---------------</div>
+			
+		</div>
+	</a> 
+		
 	</div>
 </div>
+
+</section>

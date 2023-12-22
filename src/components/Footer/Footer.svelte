@@ -9,11 +9,11 @@
 <section id="footer">
 	<nav id="footer" class="bg-[#ebc9c8]">
 		<!-- start container -->
-		<div class="  px-10 pt-8 pb-4">
+		<div class="px-10 pt-8 pb-4">
 			<div class="flex flex-wrap overflow-hidden sm:-mx-1 md:-mx-px lg:-mx-2 xl:-mx-2">
 				<div
-					class="pl-0 w-full overflow-hidden sm:my-1 sm:px-1 sm:w-1/2 md:my-px md:px-px md:w-1/2 lg:my-2 lg:px-2
-            lg:w-1/4 xl:my-2 xl:px-2 xl:w-1/4 pb-2"
+					class="pl-0 w-full overflow-hidden sm:my-1 sm:px-1 sm:w-1/3 md:my-px md:px-px md:w-1/3 lg:my-2 lg:px-2
+            lg:w-1/3 xl:my-2 xl:px-2 xl:w-1/3 pb-2"
 				>
 					<!-- Column 2 Content -->
 					<br />
@@ -34,9 +34,8 @@
 						</li>
 					</ul>
 				</div>
-
 				<div
-					class="w-full overflow-hidden sm:my-1 sm:px-1 sm:w-1/2 md:my-px md:px-px md:w-1/2 lg:my-2 lg:px-2 lg:w-1/4 xl:my-2 xl:px-2 xl:w-1/4 pb-6"
+					class="w-full overflow-hidden sm:my-1 sm:px-1 sm:w-1/3 md:my-px md:px-px md:w-1/3 lg:my-2 lg:px-2 lg:w-1/3 xl:my-2 xl:px-2 xl:w-1/3 pb-6"
 				>
 					<br />
 					<h4 class="text-gray-700"><strong>Infomación adicional</strong></h4>
@@ -63,24 +62,8 @@
 						</li>
 					</ul>
 				</div>
+		
 
-				<div
-					class="w-full overflow-hidden sm:my-1 sm:px-1 sm:w-1/2 md:my-px md:px-px md:w-1/2 lg:my-2 lg:px-2 lg:w-1/4 xl:my-2 xl:px-2 xl:w-1/4 pb-6"
-				>
-					<!-- Column 4 Content -->
-
-					<h4 class=""><strong>Horario de atención</strong></h4>
-					<ul class="">
-						<li id="navi-2" class="leading-7 text-sm">
-							<a class=" text-gray-700 text-small">
-								{ATENCION}
-							</a>
-						</li>
-						<li id="" class="leading-7 text-sm">
-							<a class=" text-gray-700">{HORARIO}</a>
-						</li>
-					</ul>
-				</div>
 			</div>
 
 			<!-- Start footer bottom -->
