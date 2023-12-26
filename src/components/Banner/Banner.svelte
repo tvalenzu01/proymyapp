@@ -25,11 +25,11 @@
 						<h1 class="text-white font-semibold text-5xl">
 							{HEADING}
 						</h1>
-						<p class="mt-4 text-lg text-gray-300">
+						<p class="mt-4 text-lg text-white">
 							{DECRIPTION}
 						</p>
-						<a href={TUTORIAL_URL} target="_blank" class="light-color">
-							<i class="far fa-play-circle fa-2x watch-btn" />
+						<a href={TUTORIAL_URL} target="_blank" class="text-white">
+							<i class="far text-white fa-play-circle fa-2x " />
 							{WATCH_TUTORIAL}
 						</a>
 						<!-- <div class="col-md-6">

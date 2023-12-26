@@ -57,8 +57,8 @@ const BANNER_DATA = {
 	HEADING: 'Bienvenido',
 	DECRIPTION:
 		'te ayudamos a recuperar todos los dientes mediante implantes dentales con lo último en tecnología dental para darte un tratamiento integral de la más alta calidad  comprendemos la importancia de una sonrisa completa y funcional. Nos comprometemos a proporcionar atención de alta calidad, con un enfoque particular en la comodidad y satisfacción de nuestros pacientes. Cada miembro de nuestro equipo está dedicado a brindar un servicio personalizado, respaldado por la más avanzada tecnología y técnicas en implantología dental.',
-	TUTORIAL_URL: '/carrusel',
-	WATCH_TUTORIAL: 'Ver resultados'
+	TUTORIAL_URL: '/',
+	WATCH_TUTORIAL: 'Ver algunos resultados'
 };
 const SERVICE_DATA = {
 	HEADING: 'Tratamientos',
