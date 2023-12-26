@@ -56,21 +56,11 @@
 				<div class="-mt-1 font-sans text-sm font-semibold">Whatsapp</div>
 			</div>
 		</a>
-		
- 		<a
-			href=""
-			class="w-full sm:w-auto bg-[#cfded8]  focus:ring-4 focus:outline-none focus:ring-gray-300 text-gray-900 rounded-lg inline-flex items-center justify-center px-3 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700"
-		>
-			<div class="text-left rtl:text-right">
-				<div class="-mt-1 font-sans text-sm font-semibold">Lunes a Viernes</div>
-				<div class="-mt-1 font-sans text-sm font-semibold">09:30 a 19:30</div>
-			</div>
-		</a> 
 
 		<a
 		
 		href="tel:{MOBILE}"
-		class="w-full sm:w-auto bg-[#cfded8]  focus:ring-4 focus:outline-none focus:ring-gray-300 text-gray-900 rounded-lg inline-flex items-center justify-center px-3 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700"
+		class="w-full sm:w-auto bg-green-600 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-3 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700"
 	>
 		<div class="text-left rtl:text-right">
 			<div class="mb-1 text-xs">Telefono</div>
@@ -79,6 +69,18 @@
 			
 		</div>
 	</a> 
+		
+ 		<a
+			href=""
+			class="w-full sm:w-auto  bg-[#cfded8] text-gray-900 rounded-lg inline-flex items-center justify-center px-3 py-2.5 "
+		>
+			<div class="text-left rtl:text-right">
+				<div class="-mt-1 font-sans text-sm font-semibold">Lunes a Viernes</div>
+				<div class="-mt-1 font-sans text-sm font-semibold">09:30 a 19:30</div>
+			</div>
+		</a> 
+
+
 		
 	</div>
 </div>
