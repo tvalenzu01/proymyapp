@@ -29,14 +29,14 @@ const NAVBAR_DATA = [
 		label: 'Contacto',
 		publico: true,
 		token: false
-	}/* ,
+	},
 	 {
 	 	id: 6,
-	 	url: '#footer',
-	 	label: 'Pacientes',
-	 	publico: false,
+	 	url: 'https://draclinica.herokuapp.com/principal',
+	 	label: '*Laboratorio',
+	 	publico: true,
 	 	token: true
-	 }
+	 }/* 
  */
 	// {
 	//     id: 7,
