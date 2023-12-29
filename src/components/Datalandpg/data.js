@@ -137,6 +137,26 @@ const ABOUT_DATA = {
 		'3) Alternativas de pago'
 	]
 };
+const PAGO_DATA = {
+	HEADING: 'Medios de Pago',
+	TITLE: 'Cual es la diferencia',
+	IMAGE_URL: 'images/network.png',
+	MEDIOPAGO: [
+		'Tarjeta de crédito.',
+		'Tarjeta de debito.',
+		'Efectivo',
+		'Transferencia',
+		'Cuotas'
+	],
+	TRANSFERENCIA: [
+		'DRA PAULA ULLOA ODONTOLOGÍA LIMITADA',
+		'RUT Empresa: 77.650.667-2',
+		'Cuenta: Cuenta corriente',
+		'Cuenta: 0-000-8996741-4',
+		'Banco: Banco Santander',
+		'Correo: drapaulaulloa@gmail.com'
+	]
+};
 const TESTIMONIAL_DATA = {
 	HEADING: 'Que dicen nuestros clientes?',
 	TESTIMONIAL_LIST: [
@@ -193,6 +213,7 @@ const MOCK_DATA = {
 	ABOUT_DATA,
 	TESTIMONIAL_DATA,
 	SOCIAL_DATA,
-	FOOTER_DATA
+	FOOTER_DATA,
+	PAGO_DATA
 };
 export default MOCK_DATA;

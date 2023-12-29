@@ -6,6 +6,7 @@
 	import Whyus from '../components/Whyus/Whyus.svelte';
 	import Footer from '../components/Footer/Footer.svelte';
 	import Contactanos from '../components/Contactanos/contactanos.svelte';
+	import Madiopago from '../components/pago/mediopago.svelte';
 </script>
 
 <svelte:head>
@@ -18,6 +19,7 @@
 			<Banner bannerData={DATA.BANNER_DATA} />
 			<Services serviceData={DATA.SERVICE_DATA} />
 			<Whyus aboutData={DATA.ABOUT_DATA} />
+			<Madiopago pagoData={DATA.PAGO_DATA} />
 			<Footer footerData={DATA.FOOTER_DATA} />
 		</div>
 	</div>
