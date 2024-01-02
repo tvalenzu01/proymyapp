@@ -159,7 +159,7 @@
 			 <!--  Lista de Opcional  -->     
 			<div class="relative" data-te-dropdown-ref>
 				<button
-				  class="px-3 py-5 flex items-center text-sm uppercase font-bold leading-snug 
+				  class="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900  px-3 py-5 flex items-center text-sm uppercase font-bold leading-snug 
 				  hover:opacity-75 hover:no-underline flex items-center whitespace-nowrap rounded  px-4 pb-2 pt-4 text-xs uppercase leading-normal shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out 
 				   hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] bg-[#cfded8]
 				    focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)]
