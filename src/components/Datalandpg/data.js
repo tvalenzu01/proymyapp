@@ -29,7 +29,7 @@ const NAVBAR_DATA = [
 		label: 'Contacto',
 		publico: true,
 		token: false
-	},
+	}/*,
 	 {
 	 	id: 6,
 	 	url: 'https://draclinica.herokuapp.com/principal',
@@ -149,12 +149,13 @@ const PAGO_DATA = {
 		'Cuotas'
 	],
 	TRANSFERENCIA: [
-		'DRA PAULA ULLOA ODONTOLOGÍA LIMITADA',
-		'RUT Empresa: 77.650.667-2',
-		'Cuenta: Cuenta corriente',
-		'Cuenta: 0-000-8996741-4',
-		'Banco: Banco Santander',
-		'Correo: drapaulaulloa@gmail.com'
+		'DRA PAULA ULLOA',
+		'ODONTOLOGÍA LIMITADA',
+		'RUT: 77.650.667-2',
+		'Cuenta corriente',
+		'0-000-8996741-4',
+		'Banco Santander',
+		'drapaulaulloa@gmail.com'
 	]
 };
 const TESTIMONIAL_DATA = {

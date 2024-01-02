@@ -28,8 +28,8 @@
 								<!-- <i class="fas fa-tooth" /> -->
 								<img src="{list.URL}" class="object-contain rounded-full shadow-lg" alt="Implante dental">
 							</div>
-							<h6 class="text-xl font-semibold">{list.LABEL}</h6>
-							<p class="mt-2 mb-4 text-gray-600">{list.DESCRIPTION}</p>
+							<h6 class="text-base font-semibold">{list.LABEL}</h6>
+							<p class=" text-gray-600 text-sm md:text-base">{list.DESCRIPTION}</p>
 						</div>
 					</div>
 				</div>

@@ -28,6 +28,7 @@
 					<li class="mt-4 font-bold text-gray-800">{list}</li>
 				{/each}
 			</ul>
+			<br>
 		</div>
 		<div class="w-full px-4 ml-auto mr-auto md:w-4/12">
 			<div

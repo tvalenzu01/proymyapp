@@ -30,10 +30,10 @@
 					class="w-full -mr-1  h-50 w-2 px-4 py-2 sm:w-auto bg-[#cfded8] text-gray-900 rounded-lg inline-flex items-center justify-center"
 				>
 					<div class="text-left rtl:text-right">
-						<div class="-mt-1 font-sans text-sm font-semibold">Transferencia</div>
+						<div class="-mt-1 font-sans text-sm  text-center font-semibold">Transferencia</div>
                         <br>
                         {#each TRANSFERENCIA as list}
-						<div class="-mt-1 font-sans text-sm font-semibold">{list}</div>
+						<div class=" text-xs  text-center sm:shadow-md sm::rounded-sm sm: bg-[#cfded8] sm:p-3 md: bg-[#cfded8]">{list}</div>
                         {/each}
 					</div>
 				</a>
