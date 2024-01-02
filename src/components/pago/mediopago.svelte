@@ -33,7 +33,7 @@
 						<div class="-mt-1 font-sans text-sm  text-center font-semibold">Transferencia</div>
                         <br>
                         {#each TRANSFERENCIA as list}
-						<div class=" text-xs  text-center sm:shadow-md sm::rounded-sm sm: bg-[#cfded8] sm:p-1 md: bg-[#cfded8]">{list}</div>
+						<div class=" text-xs  text-center  bg-[#cfded8]">{list}</div>
                         {/each}
 					</div>
 				</a>
